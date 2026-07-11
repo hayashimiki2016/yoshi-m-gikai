@@ -1,4 +1,4 @@
-export type BillStatus = "審議中" | "可決" | "否決" | "継続審査" | "取り下げ";
+export type BillStatus = "審議中" | "可決" | "否決";
 
 export interface KeyPoint {
   heading: string;
