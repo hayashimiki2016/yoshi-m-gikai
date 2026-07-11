@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffaf4;
+  --foreground: #2a2019;
+
+  --grad: linear-gradient(115deg, #f2703c 0%, #f7a35e 55%, #ffd9a8 100%);
+  --grad-soft: linear-gradient(135deg, #ffd9a8 0%, #fff3e4 100%);
+  --shadow-brand: 0 20px 50px -25px rgba(168, 84, 26, 0.35);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic UI",
+    var(--font-noto-sans-jp), "Meiryo", sans-serif;
+
+  --color-cream: #fffaf4;
+  --color-surface: #ffffff;
+  --color-tint: #fff3e4;
+  --color-tint-2: #ffe8d1;
+  --color-line: #eee0d0;
+  --color-ink: #2a2019;
+  --color-ink-soft: #6b5c50;
+  --color-ink-faint: #9c8b7c;
+  --color-brand-300: #ffd9a8;
+  --color-brand-500: #f2884a;
+  --color-brand-600: #c85a2e;
+  --color-brand-700: #a5461f;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.bg-grad {
+  background: var(--grad);
+}
+
+.bg-grad-soft {
+  background: var(--grad-soft);
+}
+
+.shadow-brand {
+  box-shadow: var(--shadow-brand);
+}
+
+.text-grad {
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
