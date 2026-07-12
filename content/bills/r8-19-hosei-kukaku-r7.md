@@ -13,8 +13,8 @@ sourceLinks:
     url: "https://www.city.yoshikawa.saitama.jp/index.cfm/34,116167,270,html"
 keyPoints:
   - heading: "土地区画整理事業特別会計の年度末補正予算です"
-    body: "吉川美南駅東口周辺地区の区画整理事業の進捗にあわせて、年度末に予算を調整します。"
-background: "この特別会計は、吉川美南駅東口周辺の道路整備や区画整理にかかる収入と支出を管理しています。"
+    body: "吉川美南駅東口周辺の区画整理事業の進み具合にあわせて、年度末に予算を調整します。"
+background: "この会計は、吉川美南駅東口周辺の道路整備や区画整理にかかるお金の出入りを管理しています。"
 affectedPeople:
   - "吉川美南駅東口周辺地区の住民・事業者"
 councilorComment: ""

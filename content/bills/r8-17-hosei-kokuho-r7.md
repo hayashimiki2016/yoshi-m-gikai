@@ -13,8 +13,8 @@ sourceLinks:
     url: "https://www.city.yoshikawa.saitama.jp/index.cfm/34,116167,270,html"
 keyPoints:
   - heading: "国民健康保険特別会計の年度末補正予算です"
-    body: "実際の給付や収入の見込みにあわせて、年度末に予算を調整します。"
-background: "国民健康保険特別会計は、国民健康保険にかかる収入と給付を管理する特別会計です。"
+    body: "実際に払うお金や入ってくるお金の見通しにあわせて、年度末に予算を調整します。"
+background: "国民健康保険特別会計は、国民健康保険のお金の出入りを管理するための会計です。"
 affectedPeople:
   - "吉川市の国民健康保険に加入している世帯"
 councilorComment: ""

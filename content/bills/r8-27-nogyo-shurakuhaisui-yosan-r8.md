@@ -13,8 +13,8 @@ sourceLinks:
     url: "https://www.city.yoshikawa.saitama.jp/index.cfm/34,116167,270,html"
 keyPoints:
   - heading: "農業集落排水事業会計の令和8年度予算です"
-    body: "農村集落の生活排水を処理する施設の維持管理・整備にかかる収支を管理する企業会計の年間予算です。"
-background: "農業集落排水事業会計は、下水道が整備されていない農業集落地域の生活排水処理を担う会計です。"
+    body: "農業集落の生活排水を処理する施設を直したり整備したりするお金の出入りを管理する会計の1年間の予算です。"
+background: "農業集落排水事業会計は、下水道がまだ整っていない農業集落で、生活排水を処理する役割を持つ会計です。"
 affectedPeople:
   - "農業集落排水施設を利用する地域の住民"
 councilorComment: ""
