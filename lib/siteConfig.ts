@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "よしかわ議会ノート",
   shortName: "議会ノート",
-  tagline: "吉川市議会でいま話し合われていることを、やさしい言葉で。",
+  tagline: "吉川市議会で話し合われたことを、やさしい言葉で。",
   description:
     "吉川市議会に提出された議案を、市民のみなさんにやさしい言葉で説明するサイトです。",
   councilorName: "林美希",

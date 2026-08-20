@@ -1,17 +1,11 @@
 import { getAllBills } from "@/lib/bills";
-import { CATEGORIES, OTHER_CATEGORY, categoryLabel } from "@/lib/categories";
 import { BillCard } from "@/components/BillCard";
 import { siteConfig } from "@/lib/siteConfig";
 
 export default function Home() {
   const bills = getAllBills();
 
-  const usedCategoryIds = Array.from(new Set(bills.map((b) => b.category)));
-  const knownIds = new Set(CATEGORIES.map((c) => c.id));
-  const orderedCategoryIds = [
-    ...CATEGORIES.map((c) => c.id),
-    ...usedCategoryIds.filter((id) => !knownIds.has(id)),
-  ];
+  const sessions = Array.from(new Set(bills.map((b) => b.session)));
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
@@ -20,28 +14,23 @@ export default function Home() {
           吉川市議会 議案説明サイト
         </p>
         <h1 className="mt-2 text-2xl font-black leading-snug sm:text-3xl">
-          いま吉川市議会で
+          吉川市議会で
           <br className="sm:hidden" />
-          話し合われていること
+          話し合われたこと
         </h1>
         <p className="mt-3 max-w-2xl text-[#fff3e4]">
           {siteConfig.description}
         </p>
       </section>
 
-      {orderedCategoryIds.map((categoryId) => {
-        const categoryBills = bills.filter((b) => b.category === categoryId);
-        if (categoryBills.length === 0) return null;
-        const label =
-          categoryId === OTHER_CATEGORY.id
-            ? OTHER_CATEGORY.label
-            : categoryLabel(categoryId);
+      {sessions.map((session) => {
+        const sessionBills = bills.filter((b) => b.session === session);
 
         return (
-          <section key={categoryId} className="mb-12">
-            <h2 className="mb-4 text-xl font-bold text-ink">{label}</h2>
+          <section key={session} className="mb-12">
+            <h2 className="mb-4 text-xl font-bold text-ink">{session}</h2>
             <div className="grid gap-4 sm:grid-cols-2">
-              {categoryBills.map((bill) => (
+              {sessionBills.map((bill) => (
                 <BillCard key={bill.slug} bill={bill} />
               ))}
             </div>
