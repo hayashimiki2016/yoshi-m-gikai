@@ -4,6 +4,7 @@ summary: "市の公共施設を民間事業者などに管理させる「指定�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第9号議案"
 category: "議会・行政"
 tags: ["指定管理者制度"]
 sourceLinks:

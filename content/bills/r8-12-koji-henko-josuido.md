@@ -4,6 +4,7 @@ summary: "土地の持ち主との話し合いに時間がかかったことや�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第12号議案"
 category: "上下水道"
 tags: ["公共工事", "上下水道", "契約変更"]
 sourceLinks:

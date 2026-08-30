@@ -4,6 +4,7 @@ summary: "税金のルールが変わった影響で介護保険料が上がっ�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第28号議案"
 category: "福祉・医療"
 tags: ["介護保険", "税制改正"]
 sourceLinks:

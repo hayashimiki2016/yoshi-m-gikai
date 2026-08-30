@@ -4,6 +4,7 @@ summary: "市立保育所で始まる「こども誰でも通園制度」の利�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第6号議案"
 category: "子育て"
 tags: ["こども誰でも通園制度", "一時預かり保育"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "令和7年度の介護保険特別会計の予算を、年度末の実
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第18号議案"
 category: "福祉・医療"
 tags: ["予算", "補正予算", "介護保険"]
 sourceLinks:

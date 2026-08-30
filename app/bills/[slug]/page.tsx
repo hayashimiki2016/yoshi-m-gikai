@@ -5,6 +5,7 @@ import { categoryLabel } from "@/lib/categories";
 import { StatusBadge } from "@/components/StatusBadge";
 import { SampleBadge } from "@/components/SampleBadge";
 import { StatusStepper } from "@/components/StatusStepper";
+import { KessanScaleChart } from "@/components/KessanScaleChart";
 import { formatDate } from "@/lib/format";
 import { siteConfig } from "@/lib/siteConfig";
 
@@ -67,11 +68,18 @@ export default async function BillPage({
       <p className="mt-2 text-ink-soft">{bill.title}</p>
       <p className="mt-1 text-sm text-ink-faint">
         {categoryLabel(bill.category)}
+        {bill.billNumber && ` ／ ${bill.billNumber}`}
       </p>
 
       <div className="mt-8">
         <StatusStepper status={bill.status} />
       </div>
+
+      {bill.kessan && (
+        <Section title="📊 決算の規模">
+          <KessanScaleChart kessan={bill.kessan} />
+        </Section>
+      )}
 
       {bill.keyPoints && bill.keyPoints.length > 0 && (
         <Section title="🎯 この議案のポイント">

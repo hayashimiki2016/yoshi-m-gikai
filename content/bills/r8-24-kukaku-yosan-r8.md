@@ -4,6 +4,7 @@ summary: "吉川美南駅東口周辺の土地区画整理事業にかかる令�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第24号議案"
 category: "まちづくり・インフラ"
 tags: ["予算", "当初予算", "土地区画整理", "吉川美南駅"]
 sourceLinks:

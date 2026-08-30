@@ -4,6 +4,7 @@ summary: "吉川市の下水道事業にかかる令和8年度予算を定める
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第26号議案"
 category: "上下水道"
 tags: ["予算", "当初予算", "下水道"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "吉川市の令和8年度の介護保険特別会計予算を定める
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第22号議案"
 category: "福祉・医療"
 tags: ["予算", "当初予算", "介護保険"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "満3歳以上だけを預かる小さな保育施設が、国からの
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第29号議案"
 category: "子育て"
 tags: ["保育", "小規模保育"]
 sourceLinks:

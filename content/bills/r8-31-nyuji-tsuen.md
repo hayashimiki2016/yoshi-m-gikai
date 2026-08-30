@@ -4,6 +4,7 @@ summary: "「こども誰でも通園制度」の施設で、子どもを性暴�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第31号議案"
 category: "子育て"
 tags: ["こどもの安全", "乳児等通園支援事業"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "中曽根跨線橋のアプローチ橋を補修する工事（約3億
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第35号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "橋梁", "防災・安全"]
 sourceLinks:

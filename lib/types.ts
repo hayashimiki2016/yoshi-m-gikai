@@ -10,13 +10,25 @@ export interface SourceLink {
   url: string;
 }
 
+export interface KessanBreakdownItem {
+  label: string;
+  amountYen: number;
+}
+
+export interface KessanScale {
+  income: KessanBreakdownItem[];
+  expense: KessanBreakdownItem[];
+}
+
 export interface BillFrontmatter {
   title: string;
   summary: string;
   status: BillStatus;
   submittedDate: string;
   session: string;
+  billNumber?: string;
   category: string;
+  kessan?: KessanScale;
   tags?: string[];
   sourceLinks?: SourceLink[];
   keyPoints?: KeyPoint[];

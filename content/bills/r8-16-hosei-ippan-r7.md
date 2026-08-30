@@ -4,6 +4,7 @@ summary: "令和7年度の一般会計予算を、年度末に向けて約1億1,
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第16号議案"
 category: "財政"
 tags: ["予算", "補正予算"]
 sourceLinks:

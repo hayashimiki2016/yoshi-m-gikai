@@ -4,6 +4,7 @@ summary: "固定資産税がかからなくなる金額のライン（免税点�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第32号議案"
 category: "財政"
 tags: ["税条例", "固定資産税", "暗号資産"]
 sourceLinks:

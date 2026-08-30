@@ -4,6 +4,7 @@ summary: "市の職員の給料表を、仕事の内容や責任をより重視�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第10号議案"
 category: "議会・行政"
 tags: ["職員給与"]
 sourceLinks:

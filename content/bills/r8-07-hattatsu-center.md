@@ -4,6 +4,7 @@ summary: "庁舎の開庁時間の見直しにあわせて、こども発達セ�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第7号議案"
 category: "子育て"
 tags: ["こども発達センター"]
 sourceLinks:

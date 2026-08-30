@@ -4,6 +4,7 @@ summary: "物価高騰への対策として、非課税世帯への商品券や�
 status: "可決"
 submittedDate: "2026-02-05"
 session: "令和8年第1回臨時会（2月）"
+billNumber: "令和8年　第1号議案"
 category: "財政"
 tags: ["予算", "補正予算", "物価高騰対策"]
 sourceLinks:

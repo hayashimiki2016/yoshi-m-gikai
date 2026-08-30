@@ -4,6 +4,7 @@ summary: "国のルールが急に変わったことに対応するため、市�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　報告第3号"
 category: "財政"
 tags: ["税条例", "専決処分"]
 sourceLinks:

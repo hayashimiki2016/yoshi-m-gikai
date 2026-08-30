@@ -4,6 +4,7 @@ summary: "吉川駅北口の駅前広場を改修する工事（約1億8,700万�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第36号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "吉川駅", "駅前広場"]
 sourceLinks:

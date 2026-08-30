@@ -4,6 +4,7 @@ summary: "吉川美南駅東口周辺の土地区画整理事業地内で行う�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第34号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "道路", "吉川美南駅"]
 sourceLinks:

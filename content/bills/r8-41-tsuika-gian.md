@@ -4,6 +4,7 @@ summary: "第二最終処分場内に整備するスポーツ施設の管理棟�
 status: "可決"
 submittedDate: "2026-06-16"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第41号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "スポーツ施設", "追加議案"]
 sourceLinks:

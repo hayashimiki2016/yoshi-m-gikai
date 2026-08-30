@@ -4,6 +4,7 @@ summary: "都市計画道路の県道移管や宅地開発に伴い、市道の�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第38号議案"
 category: "まちづくり・インフラ"
 tags: ["道路", "市道"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "農村集落の生活排水処理を行う農業集落排水事業に�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第27号議案"
 category: "産業・農業"
 tags: ["予算", "当初予算", "農業集落排水"]
 sourceLinks:

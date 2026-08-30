@@ -4,6 +4,7 @@ summary: "任期満了となる副市長の再任について、議会の同意�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第15号議案"
 category: "議会・行政"
 tags: ["人事案件"]
 sourceLinks:

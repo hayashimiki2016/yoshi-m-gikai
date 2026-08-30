@@ -4,6 +4,7 @@ summary: "危ない空き家への対応を強めるため、国のルール変�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第2号議案"
 category: "防災・安全"
 tags: ["空き家対策"]
 sourceLinks:

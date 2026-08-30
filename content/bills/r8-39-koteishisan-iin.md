@@ -4,6 +4,7 @@ summary: "任期満了となる固定資産評価審査委員会委員の再任�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第39号議案"
 category: "議会・行政"
 tags: ["人事案件"]
 sourceLinks:

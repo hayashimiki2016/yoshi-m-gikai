@@ -21,6 +21,9 @@ export function BillCard({ bill }: { bill: Bill }) {
         {bill.summary}
       </p>
       <p className="text-sm text-ink-soft">{bill.title}</p>
+      {bill.billNumber && (
+        <p className="text-xs text-ink-faint">{bill.billNumber}</p>
+      )}
     </Link>
   );
 }

@@ -4,6 +4,7 @@ summary: "主要資材（シェルター）の納品遅延により、吉川駅�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第14号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "吉川駅", "駅前広場", "契約変更"]
 sourceLinks:

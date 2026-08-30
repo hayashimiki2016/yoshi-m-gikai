@@ -4,6 +4,7 @@ summary: "生活保護費や農業の担い手を育てる支援などのため�
 status: "可決"
 submittedDate: "2026-06-02"
 session: "令和8年第3回定例会（6月）"
+billNumber: "令和8年　第40号議案"
 category: "財政"
 tags: ["予算", "補正予算", "生活保護", "農業支援"]
 sourceLinks:

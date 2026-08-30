@@ -4,6 +4,7 @@ summary: "国のルール変更にあわせて、市の建築確認にかかる�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第5号議案"
 category: "まちづくり・インフラ"
 tags: ["建築基準法", "手数料"]
 sourceLinks:

@@ -4,6 +4,7 @@ summary: "川の工事の進み具合にあわせて歩行者用の通路など�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第13号議案"
 category: "まちづくり・インフラ"
 tags: ["公共工事", "調整池", "契約変更"]
 sourceLinks:

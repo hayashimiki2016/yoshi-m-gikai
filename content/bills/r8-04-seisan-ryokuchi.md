@@ -4,6 +4,7 @@ summary: "生産緑地地区に指定できる区域の最低面積を、市の�
 status: "可決"
 submittedDate: "2026-02-20"
 session: "令和8年第2回定例会（3月）"
+billNumber: "令和8年　第4号議案"
 category: "産業・農業"
 tags: ["生産緑地", "都市農地"]
 sourceLinks:
