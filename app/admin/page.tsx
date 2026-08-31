@@ -66,52 +66,90 @@ export default async function AdminPage({
         </p>
       )}
 
-      <div className="space-y-6">
-        {bills.map((bill) => (
-          <form
-            key={bill.path}
-            action={updateBillAction}
-            className="rounded-2xl border border-line bg-surface p-5"
-          >
-            <input type="hidden" name="path" value={bill.path} />
-            <p className="font-bold text-ink">{bill.summary || bill.title}</p>
-            <p className="mt-1 text-xs text-ink-faint">{bill.path}</p>
+      {(() => {
+        const pending = bills.filter(
+          (b) => b.status === "上程" || b.status === "審議中"
+        );
+        const decided = bills.filter(
+          (b) => b.status !== "上程" && b.status !== "審議中"
+        );
+        return (
+          <>
+            <div className="space-y-6">
+              {pending.length === 0 && (
+                <p className="text-sm text-ink-faint">
+                  未議決の議案はありません。
+                </p>
+              )}
+              {pending.map((bill) => (
+                <BillForm key={bill.path} bill={bill} />
+              ))}
+            </div>
 
-            <label className="mt-4 block text-sm font-semibold text-ink-soft">
-              状況
-              <select
-                name="status"
-                defaultValue={bill.status}
-                className="mt-1 block w-full rounded-lg border border-line bg-cream px-3 py-2 text-ink"
-              >
-                {STATUS_OPTIONS.map((s) => (
-                  <option key={s} value={s}>
-                    {STATUS_LABELS[s]}
-                  </option>
-                ))}
-              </select>
-            </label>
-
-            <label className="mt-4 block text-sm font-semibold text-ink-soft">
-              林みきからの一言
-              <textarea
-                name="comment"
-                defaultValue={bill.councilorComment}
-                rows={4}
-                className="mt-1 block w-full rounded-lg border border-line bg-cream px-3 py-2 text-ink"
-              />
-            </label>
-
-            <button
-              type="submit"
-              className="mt-4 rounded-full bg-grad px-5 py-2 text-sm font-bold text-[#fff8f2] shadow-brand"
-            >
-              保存する
-            </button>
-          </form>
-        ))}
-      </div>
+            {decided.length > 0 && (
+              <details className="mt-8">
+                <summary className="cursor-pointer text-sm font-semibold text-ink-soft">
+                  議決済みの議案を表示（{decided.length}件）
+                </summary>
+                <div className="mt-6 space-y-6">
+                  {decided.map((bill) => (
+                    <BillForm key={bill.path} bill={bill} />
+                  ))}
+                </div>
+              </details>
+            )}
+          </>
+        );
+      })()}
     </div>
+  );
+}
+
+function BillForm({ bill }: { bill: AdminBillSummary }) {
+  return (
+    <form
+      action={updateBillAction}
+      className="rounded-2xl border border-line bg-surface p-5"
+    >
+      <input type="hidden" name="path" value={bill.path} />
+      <p className="text-xs text-ink-faint">
+        {bill.session}
+        {bill.billNumber && ` ／ ${bill.billNumber}`}
+      </p>
+      <p className="mt-1 font-bold text-ink">{bill.summary || bill.title}</p>
+
+      <label className="mt-4 block text-sm font-semibold text-ink-soft">
+        状況
+        <select
+          name="status"
+          defaultValue={bill.status}
+          className="mt-1 block w-full rounded-lg border border-line bg-cream px-3 py-3 text-base text-ink"
+        >
+          {STATUS_OPTIONS.map((s) => (
+            <option key={s} value={s}>
+              {STATUS_LABELS[s]}
+            </option>
+          ))}
+        </select>
+      </label>
+
+      <label className="mt-4 block text-sm font-semibold text-ink-soft">
+        林みきからの一言
+        <textarea
+          name="comment"
+          defaultValue={bill.councilorComment}
+          rows={4}
+          className="mt-1 block w-full rounded-lg border border-line bg-cream px-3 py-2 text-base text-ink"
+        />
+      </label>
+
+      <button
+        type="submit"
+        className="mt-4 w-full rounded-full bg-grad px-5 py-3 text-sm font-bold text-[#fff8f2] shadow-brand sm:w-auto"
+      >
+        保存する
+      </button>
+    </form>
   );
 }
 

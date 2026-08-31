@@ -26,6 +26,8 @@ export interface AdminBillSummary {
   title: string;
   summary: string;
   status: string;
+  session: string;
+  billNumber: string;
   councilorComment: string;
 }
 
@@ -66,7 +68,9 @@ export async function getAdminBillSummary(
     path,
     title: data.title ?? "",
     summary: data.summary ?? "",
-    status: data.status ?? "審議中",
+    status: data.status ?? "上程",
+    session: data.session ?? "",
+    billNumber: data.billNumber ?? "",
     councilorComment: data.councilorComment ?? "",
   };
 }

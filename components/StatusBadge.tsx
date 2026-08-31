@@ -2,6 +2,7 @@ import type { BillStatus } from "@/lib/types";
 import { STATUS_LABELS } from "@/lib/statusLabels";
 
 const STATUS_STYLES: Record<BillStatus, string> = {
+  上程: "bg-slate-100 text-slate-700 ring-slate-600/20",
   審議中: "bg-blue-100 text-blue-800 ring-blue-600/20",
   可決: "bg-emerald-100 text-emerald-800 ring-emerald-600/20",
   否決: "bg-rose-100 text-rose-800 ring-rose-600/20",
