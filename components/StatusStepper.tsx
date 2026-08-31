@@ -13,7 +13,6 @@ export function StatusStepper({ status }: { status: BillStatus }) {
   const isFinal = current === 3;
 
   const steps: { label: string; active: boolean; done: boolean }[] = [
-    { label: "提出", active: false, done: true },
     { label: "上程", active: current === 1, done: current >= 1 },
     { label: "審議中", active: current === 2, done: current >= 2 },
     {
